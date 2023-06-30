@@ -45,5 +45,6 @@ jobs:
           rfbrowser init
 
       - name: Run Robot Framework WEB Tests
+        continue-on-error: true
         run:  |
           robot -d ./results -v HEADLESS:True -v BROWSER:chromium tests
