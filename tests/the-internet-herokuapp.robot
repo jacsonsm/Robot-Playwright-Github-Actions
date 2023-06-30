@@ -1,6 +1,7 @@
 *** Settings ***
 Resource  ../resources/the-internet-herokuapp.resource
 Test Teardown  Tirar Print
+Suite Setup    Close Browser    ALL
 
 
 *** Test Cases ***

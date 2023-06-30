@@ -1,6 +1,7 @@
 *** Settings ***
 Resource    ../resources/serve-rest-front.resource
-Test Teardown   Evidenciar teste 
+Test Teardown   Evidenciar teste
+Suite Teardown    Close Browser    ALL 
 
 *** Test Cases ***
 Cenário: Login com sucesso Server Rest front

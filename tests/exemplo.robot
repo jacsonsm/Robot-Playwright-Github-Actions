@@ -4,7 +4,7 @@ Resource    ../resources/server_rest-front.resource
 Test Setup     Run Keywords       Abri o navegador     AND
 ...                               Abrir o site da Server Rest      AND
 ...                               Criar um usuário de teste
-
+Suite Teardown    Close Browser    ALL
 *** Test Cases ***
 
 Login com sucesso Server Rest Front
