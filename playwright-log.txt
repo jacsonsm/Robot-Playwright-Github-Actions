@@ -1,0 +1,236 @@
+{"level":30,"time":"2023-06-09T15:33:07.227Z","pid":16116,"hostname":"AD-QA-01","msg":"Listening on 53006"}
+{"level":30,"time":"2023-06-09T15:33:07.254Z","pid":16116,"hostname":"AD-QA-01","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-06-09T15:33:07.254Z","pid":16116,"hostname":"AD-QA-01","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2023-06-09T15:33:07.259Z","pid":16116,"hostname":"AD-QA-01","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-06-09T15:33:07.259Z","pid":16116,"hostname":"AD-QA-01","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2023-06-09T15:33:07.266Z","pid":16116,"hostname":"AD-QA-01","msg":"Start of node method evaluateJavascript"}
+================= Original suppressed error =================
+Error: No page open.
+    at PlaywrightServer.getActivePage (C:\Users\ADSOFT DEV\AppData\Local\Programs\Python\Python310-32\lib\site-packages\Browser\wrapper\index.js:9957:15)
+    at PlaywrightServer.evaluateJavascript (C:\Users\ADSOFT DEV\AppData\Local\Programs\Python\Python310-32\lib\site-packages\Browser\wrapper\index.js:10012:75)
+    at C:\Users\ADSOFT DEV\AppData\Local\Programs\Python\Python310-32\lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:821:17
+    at Http2ServerCallStream.safeDeserializeMessage (C:\Users\ADSOFT DEV\AppData\Local\Programs\Python\Python310-32\lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-call.js:395:13)
+    at ServerHttp2Stream.onEnd (C:\Users\ADSOFT DEV\AppData\Local\Programs\Python\Python310-32\lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-call.js:382:22)
+    at ServerHttp2Stream.emit (node:events:525:35)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+=============================================================
+{"level":30,"time":"2023-06-09T15:33:07.267Z","pid":16116,"hostname":"AD-QA-01","msg":"Error of node method  evaluateJavascript"}
+{"level":30,"time":"2023-06-09T15:33:07.277Z","pid":16116,"hostname":"AD-QA-01","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2023-06-09T15:33:07.875Z","pid":16116,"hostname":"AD-QA-01","msg":"End of node method newBrowser"}
+{"level":30,"time":"2023-06-09T15:33:07.888Z","pid":16116,"hostname":"AD-QA-01","msg":"Start of node method evaluateJavascript"}
+================= Original suppressed error =================
+Error: No page open.
+    at PlaywrightServer.getActivePage (C:\Users\ADSOFT DEV\AppData\Local\Programs\Python\Python310-32\lib\site-packages\Browser\wrapper\index.js:9957:15)
+    at PlaywrightServer.evaluateJavascript (C:\Users\ADSOFT DEV\AppData\Local\Programs\Python\Python310-32\lib\site-packages\Browser\wrapper\index.js:10012:75)
+    at C:\Users\ADSOFT DEV\AppData\Local\Programs\Python\Python310-32\lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:821:17
+    at Http2ServerCallStream.safeDeserializeMessage (C:\Users\ADSOFT DEV\AppData\Local\Programs\Python\Python310-32\lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-call.js:395:13)
+    at ServerHttp2Stream.onEnd (C:\Users\ADSOFT DEV\AppData\Local\Programs\Python\Python310-32\lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-call.js:382:22)
+    at ServerHttp2Stream.emit (node:events:525:35)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+=============================================================
+{"level":30,"time":"2023-06-09T15:33:07.889Z","pid":16116,"hostname":"AD-QA-01","msg":"Error of node method  evaluateJavascript"}
+{"level":30,"time":"2023-06-09T15:33:07.902Z","pid":16116,"hostname":"AD-QA-01","msg":"Start of node method newContext"}
+{"level":30,"time":"2023-06-09T15:33:07.903Z","pid":16116,"hostname":"AD-QA-01","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2023-06-09T15:33:07.903Z","pid":16116,"hostname":"AD-QA-01","msg":"Trace file: C:\\Developer\\robot\\Robot-Playwright-Github-Actions\\evidencies\\traces\\09-06-2023_123307\\36af97c7-331b-4842-9c00-afd7fe32219b.zip"}
+{"level":30,"time":"2023-06-09T15:33:07.931Z","pid":16116,"hostname":"AD-QA-01","msg":"Tracing enabled with: { screenshots: true, snapshots: true }"}
+{"level":30,"time":"2023-06-09T15:33:07.933Z","pid":16116,"hostname":"AD-QA-01","msg":"End of node method newContext"}
+{"level":30,"time":"2023-06-09T15:33:07.932Z","pid":16116,"hostname":"AD-QA-01","msg":"Changed active context"}
+================= Original suppressed error =================
+Error: No page open.
+    at PlaywrightServer.getActivePage (C:\Users\ADSOFT DEV\AppData\Local\Programs\Python\Python310-32\lib\site-packages\Browser\wrapper\index.js:9957:15)
+    at PlaywrightServer.evaluateJavascript (C:\Users\ADSOFT DEV\AppData\Local\Programs\Python\Python310-32\lib\site-packages\Browser\wrapper\index.js:10012:75)
+    at C:\Users\ADSOFT DEV\AppData\Local\Programs\Python\Python310-32\lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:821:17
+    at Http2ServerCallStream.safeDeserializeMessage (C:\Users\ADSOFT DEV\AppData\Local\Programs\Python\Python310-32\lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-call.js:395:13)
+    at ServerHttp2Stream.onEnd (C:\Users\ADSOFT DEV\AppData\Local\Programs\Python\Python310-32\lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-call.js:382:22)
+    at ServerHttp2Stream.emit (node:events:525:35)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+=============================================================
+{"level":30,"time":"2023-06-09T15:33:07.945Z","pid":16116,"hostname":"AD-QA-01","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2023-06-09T15:33:07.945Z","pid":16116,"hostname":"AD-QA-01","msg":"Error of node method  evaluateJavascript"}
+{"level":30,"time":"2023-06-09T15:33:07.954Z","pid":16116,"hostname":"AD-QA-01","msg":"Start of node method newPage"}
+{"level":30,"time":"2023-06-09T15:33:07.954Z","pid":16116,"hostname":"AD-QA-01","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2023-06-09T15:33:08.268Z","pid":16116,"hostname":"AD-QA-01","msg":"Video path: C:\\Developer\robot\\Robot-Playwright-Github-Actions\\evidencies\\videos\\09-06-2023_123307\\44d418fd9b265881c57b6b3a68aba8a5.webm"}
+{"level":30,"time":"2023-06-09T15:33:08.269Z","pid":16116,"hostname":"AD-QA-01","msg":"Changed active page"}
+{"level":30,"time":"2023-06-09T15:33:10.306Z","pid":16116,"hostname":"AD-QA-01","msg":"End of node method newPage"}
+{"level":30,"time":"2023-06-09T15:33:10.317Z","pid":16116,"hostname":"AD-QA-01","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2023-06-09T15:33:10.606Z","pid":16116,"hostname":"AD-QA-01","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2023-06-09T15:33:10.622Z","pid":16116,"hostname":"AD-QA-01","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2023-06-09T15:33:10.641Z","pid":16116,"hostname":"AD-QA-01","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2023-06-09T15:33:10.644Z","pid":16116,"hostname":"AD-QA-01","msg":"Start of node method scrollToElement"}
+{"level":30,"time":"2023-06-09T15:33:10.644Z","pid":16116,"hostname":"AD-QA-01","msg":"Strict mode is enabled, find Locator with css=a[data-testid='cadastrar'] in page."}
+{"level":30,"time":"2023-06-09T15:33:10.726Z","pid":16116,"hostname":"AD-QA-01","msg":"End of node method scrollToElement"}
+{"level":30,"time":"2023-06-09T15:33:10.729Z","pid":16116,"hostname":"AD-QA-01","msg":"Start of node method highlightElements"}
+{"level":30,"time":"2023-06-09T15:33:10.729Z","pid":16116,"hostname":"AD-QA-01","msg":"Strict mode is disabled, return Locator: css=a[data-testid='cadastrar'] in page."}
+{"level":30,"time":"2023-06-09T15:33:10.732Z","pid":16116,"hostname":"AD-QA-01","msg":"Locator count is 1"}
+{"level":30,"time":"2023-06-09T15:33:10.756Z","pid":16116,"hostname":"AD-QA-01","msg":"End of node method highlightElements"}
+{"level":30,"time":"2023-06-09T15:33:12.762Z","pid":16116,"hostname":"AD-QA-01","msg":"Start of node method click"}
+{"level":30,"time":"2023-06-09T15:33:12.762Z","pid":16116,"hostname":"AD-QA-01","msg":"Strict mode is enabled, find Locator with css=a[data-testid='cadastrar'] in page."}
+{"level":30,"time":"2023-06-09T15:33:12.842Z","pid":16116,"hostname":"AD-QA-01","msg":"End of node method click"}
+{"level":30,"time":"2023-06-09T15:33:12.851Z","pid":16116,"hostname":"AD-QA-01","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2023-06-09T15:33:12.879Z","pid":16116,"hostname":"AD-QA-01","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2023-06-09T15:33:12.884Z","pid":16116,"hostname":"AD-QA-01","msg":"Start of node method scrollToElement"}
+{"level":30,"time":"2023-06-09T15:33:12.884Z","pid":16116,"hostname":"AD-QA-01","msg":"Strict mode is enabled, find Locator with css=input[data-testid='nome'] in page."}
+{"level":30,"time":"2023-06-09T15:33:12.945Z","pid":16116,"hostname":"AD-QA-01","msg":"End of node method scrollToElement"}
+{"level":30,"time":"2023-06-09T15:33:12.949Z","pid":16116,"hostname":"AD-QA-01","msg":"Start of node method highlightElements"}
+{"level":30,"time":"2023-06-09T15:33:12.949Z","pid":16116,"hostname":"AD-QA-01","msg":"Strict mode is disabled, return Locator: css=input[data-testid='nome'] in page."}
+{"level":30,"time":"2023-06-09T15:33:12.955Z","pid":16116,"hostname":"AD-QA-01","msg":"Locator count is 1"}
+{"level":30,"time":"2023-06-09T15:33:12.971Z","pid":16116,"hostname":"AD-QA-01","msg":"End of node method highlightElements"}
+{"level":30,"time":"2023-06-09T15:33:14.981Z","pid":16116,"hostname":"AD-QA-01","msg":"Start of node method fillText"}
+{"level":30,"time":"2023-06-09T15:33:14.982Z","pid":16116,"hostname":"AD-QA-01","msg":"Strict mode is enabled, find Locator with css=input[data-testid='nome'] in page."}
+{"level":30,"time":"2023-06-09T15:33:15.033Z","pid":16116,"hostname":"AD-QA-01","msg":"End of node method fillText"}
+{"level":30,"time":"2023-06-09T15:33:15.038Z","pid":16116,"hostname":"AD-QA-01","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2023-06-09T15:33:15.065Z","pid":16116,"hostname":"AD-QA-01","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2023-06-09T15:33:15.070Z","pid":16116,"hostname":"AD-QA-01","msg":"Start of node method scrollToElement"}
+{"level":30,"time":"2023-06-09T15:33:15.070Z","pid":16116,"hostname":"AD-QA-01","msg":"Strict mode is enabled, find Locator with css=input[data-testid='email'] in page."}
+{"level":30,"time":"2023-06-09T15:33:15.151Z","pid":16116,"hostname":"AD-QA-01","msg":"End of node method scrollToElement"}
+{"level":30,"time":"2023-06-09T15:33:15.153Z","pid":16116,"hostname":"AD-QA-01","msg":"Start of node method highlightElements"}
+{"level":30,"time":"2023-06-09T15:33:15.153Z","pid":16116,"hostname":"AD-QA-01","msg":"Strict mode is disabled, return Locator: css=input[data-testid='email'] in page."}
+{"level":30,"time":"2023-06-09T15:33:15.159Z","pid":16116,"hostname":"AD-QA-01","msg":"Locator count is 1"}
+{"level":30,"time":"2023-06-09T15:33:15.185Z","pid":16116,"hostname":"AD-QA-01","msg":"End of node method highlightElements"}
+{"level":30,"time":"2023-06-09T15:33:17.196Z","pid":16116,"hostname":"AD-QA-01","msg":"Start of node method fillText"}
+{"level":30,"time":"2023-06-09T15:33:17.196Z","pid":16116,"hostname":"AD-QA-01","msg":"Strict mode is enabled, find Locator with css=input[data-testid='email'] in page."}
+{"level":30,"time":"2023-06-09T15:33:17.234Z","pid":16116,"hostname":"AD-QA-01","msg":"End of node method fillText"}
+{"level":30,"time":"2023-06-09T15:33:17.239Z","pid":16116,"hostname":"AD-QA-01","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2023-06-09T15:33:17.256Z","pid":16116,"hostname":"AD-QA-01","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2023-06-09T15:33:17.261Z","pid":16116,"hostname":"AD-QA-01","msg":"Start of node method scrollToElement"}
+{"level":30,"time":"2023-06-09T15:33:17.262Z","pid":16116,"hostname":"AD-QA-01","msg":"Strict mode is enabled, find Locator with css=input[data-testid='password'] in page."}
+{"level":30,"time":"2023-06-09T15:33:17.383Z","pid":16116,"hostname":"AD-QA-01","msg":"End of node method scrollToElement"}
+{"level":30,"time":"2023-06-09T15:33:17.390Z","pid":16116,"hostname":"AD-QA-01","msg":"Start of node method highlightElements"}
+{"level":30,"time":"2023-06-09T15:33:17.390Z","pid":16116,"hostname":"AD-QA-01","msg":"Strict mode is disabled, return Locator: css=input[data-testid='password'] in page."}
+{"level":30,"time":"2023-06-09T15:33:17.403Z","pid":16116,"hostname":"AD-QA-01","msg":"Locator count is 1"}
+{"level":30,"time":"2023-06-09T15:33:17.437Z","pid":16116,"hostname":"AD-QA-01","msg":"End of node method highlightElements"}
+{"level":30,"time":"2023-06-09T15:33:19.452Z","pid":16116,"hostname":"AD-QA-01","msg":"Start of node method fillText"}
+{"level":30,"time":"2023-06-09T15:33:19.452Z","pid":16116,"hostname":"AD-QA-01","msg":"Strict mode is enabled, find Locator with css=input[data-testid='password'] in page."}
+{"level":30,"time":"2023-06-09T15:33:19.506Z","pid":16116,"hostname":"AD-QA-01","msg":"End of node method fillText"}
+{"level":30,"time":"2023-06-09T15:33:19.514Z","pid":16116,"hostname":"AD-QA-01","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2023-06-09T15:33:19.541Z","pid":16116,"hostname":"AD-QA-01","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2023-06-09T15:33:19.550Z","pid":16116,"hostname":"AD-QA-01","msg":"Start of node method scrollToElement"}
+{"level":30,"time":"2023-06-09T15:33:19.550Z","pid":16116,"hostname":"AD-QA-01","msg":"Strict mode is enabled, find Locator with css=input[data-testid='checkbox'] in page."}
+{"level":30,"time":"2023-06-09T15:33:19.720Z","pid":16116,"hostname":"AD-QA-01","msg":"End of node method scrollToElement"}
+{"level":30,"time":"2023-06-09T15:33:19.725Z","pid":16116,"hostname":"AD-QA-01","msg":"Start of node method highlightElements"}
+{"level":30,"time":"2023-06-09T15:33:19.725Z","pid":16116,"hostname":"AD-QA-01","msg":"Strict mode is disabled, return Locator: css=input[data-testid='checkbox'] in page."}
+{"level":30,"time":"2023-06-09T15:33:19.731Z","pid":16116,"hostname":"AD-QA-01","msg":"Locator count is 1"}
+{"level":30,"time":"2023-06-09T15:33:19.743Z","pid":16116,"hostname":"AD-QA-01","msg":"End of node method highlightElements"}
+{"level":30,"time":"2023-06-09T15:33:21.755Z","pid":16116,"hostname":"AD-QA-01","msg":"Start of node method checkCheckbox"}
+{"level":30,"time":"2023-06-09T15:33:21.756Z","pid":16116,"hostname":"AD-QA-01","msg":"Strict mode is enabled, find Locator with css=input[data-testid='checkbox'] in page."}
+{"level":30,"time":"2023-06-09T15:33:21.836Z","pid":16116,"hostname":"AD-QA-01","msg":"End of node method checkCheckbox"}
+{"level":30,"time":"2023-06-09T15:33:21.841Z","pid":16116,"hostname":"AD-QA-01","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2023-06-09T15:33:21.852Z","pid":16116,"hostname":"AD-QA-01","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2023-06-09T15:33:21.856Z","pid":16116,"hostname":"AD-QA-01","msg":"Start of node method scrollToElement"}
+{"level":30,"time":"2023-06-09T15:33:21.856Z","pid":16116,"hostname":"AD-QA-01","msg":"Strict mode is enabled, find Locator with css=button[data-testid='cadastrar'] in page."}
+{"level":30,"time":"2023-06-09T15:33:21.941Z","pid":16116,"hostname":"AD-QA-01","msg":"End of node method scrollToElement"}
+{"level":30,"time":"2023-06-09T15:33:21.943Z","pid":16116,"hostname":"AD-QA-01","msg":"Start of node method highlightElements"}
+{"level":30,"time":"2023-06-09T15:33:21.943Z","pid":16116,"hostname":"AD-QA-01","msg":"Strict mode is disabled, return Locator: css=button[data-testid='cadastrar'] in page."}
+{"level":30,"time":"2023-06-09T15:33:21.950Z","pid":16116,"hostname":"AD-QA-01","msg":"Locator count is 1"}
+{"level":30,"time":"2023-06-09T15:33:21.976Z","pid":16116,"hostname":"AD-QA-01","msg":"End of node method highlightElements"}
+{"level":30,"time":"2023-06-09T15:33:23.984Z","pid":16116,"hostname":"AD-QA-01","msg":"Start of node method click"}
+{"level":30,"time":"2023-06-09T15:33:23.984Z","pid":16116,"hostname":"AD-QA-01","msg":"Strict mode is enabled, find Locator with css=button[data-testid='cadastrar'] in page."}
+{"level":30,"time":"2023-06-09T15:33:24.061Z","pid":16116,"hostname":"AD-QA-01","msg":"End of node method click"}
+{"level":30,"time":"2023-06-09T15:33:24.068Z","pid":16116,"hostname":"AD-QA-01","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2023-06-09T15:33:24.104Z","pid":16116,"hostname":"AD-QA-01","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2023-06-09T15:33:24.109Z","pid":16116,"hostname":"AD-QA-01","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2023-06-09T15:33:24.109Z","pid":16116,"hostname":"AD-QA-01","msg":"Strict mode is enabled, find Locator with h1 in page."}
+{"level":30,"time":"2023-06-09T15:33:28.030Z","pid":16116,"hostname":"AD-QA-01","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2023-06-09T15:33:28.033Z","pid":16116,"hostname":"AD-QA-01","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2023-06-09T15:33:28.044Z","pid":16116,"hostname":"AD-QA-01","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2023-06-09T15:33:28.047Z","pid":16116,"hostname":"AD-QA-01","msg":"Start of node method scrollToElement"}
+{"level":30,"time":"2023-06-09T15:33:28.047Z","pid":16116,"hostname":"AD-QA-01","msg":"Strict mode is enabled, find Locator with h1 in page."}
+{"level":30,"time":"2023-06-09T15:33:28.076Z","pid":16116,"hostname":"AD-QA-01","msg":"End of node method scrollToElement"}
+{"level":30,"time":"2023-06-09T15:33:28.078Z","pid":16116,"hostname":"AD-QA-01","msg":"Start of node method highlightElements"}
+{"level":30,"time":"2023-06-09T15:33:28.078Z","pid":16116,"hostname":"AD-QA-01","msg":"Strict mode is disabled, return Locator: h1 in page."}
+{"level":30,"time":"2023-06-09T15:33:28.081Z","pid":16116,"hostname":"AD-QA-01","msg":"Locator count is 1"}
+{"level":30,"time":"2023-06-09T15:33:28.091Z","pid":16116,"hostname":"AD-QA-01","msg":"End of node method highlightElements"}
+{"level":30,"time":"2023-06-09T15:33:30.101Z","pid":16116,"hostname":"AD-QA-01","msg":"Start of node method getText"}
+{"level":30,"time":"2023-06-09T15:33:30.102Z","pid":16116,"hostname":"AD-QA-01","msg":"Strict mode is enabled, find Locator with h1 in page."}
+{"level":30,"time":"2023-06-09T15:33:30.145Z","pid":16116,"hostname":"AD-QA-01","msg":"Retrieved text for element h1 containing Bem Vindo Jacsonsm"}
+{"level":30,"time":"2023-06-09T15:33:30.145Z","pid":16116,"hostname":"AD-QA-01","msg":"End of node method getText"}
+{"level":30,"time":"2023-06-09T15:33:30.148Z","pid":16116,"hostname":"AD-QA-01","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2023-06-09T15:33:30.161Z","pid":16116,"hostname":"AD-QA-01","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2023-06-09T15:33:30.164Z","pid":16116,"hostname":"AD-QA-01","msg":"Start of node method getElementStates"}
+{"level":30,"time":"2023-06-09T15:33:30.164Z","pid":16116,"hostname":"AD-QA-01","msg":"Strict mode is enabled, find Locator with css=button[data-testid='logout'] in page."}
+{"level":30,"time":"2023-06-09T15:33:30.228Z","pid":16116,"hostname":"AD-QA-01","msg":"End of node method getElementStates"}
+{"level":30,"time":"2023-06-09T15:33:30.233Z","pid":16116,"hostname":"AD-QA-01","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2023-06-09T15:33:30.243Z","pid":16116,"hostname":"AD-QA-01","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2023-06-09T15:33:30.245Z","pid":16116,"hostname":"AD-QA-01","msg":"Start of node method scrollToElement"}
+{"level":30,"time":"2023-06-09T15:33:30.245Z","pid":16116,"hostname":"AD-QA-01","msg":"Strict mode is enabled, find Locator with css=a[data-testid='listarUsuarios'] in page."}
+{"level":30,"time":"2023-06-09T15:33:30.294Z","pid":16116,"hostname":"AD-QA-01","msg":"End of node method scrollToElement"}
+{"level":30,"time":"2023-06-09T15:33:30.296Z","pid":16116,"hostname":"AD-QA-01","msg":"Start of node method highlightElements"}
+{"level":30,"time":"2023-06-09T15:33:30.296Z","pid":16116,"hostname":"AD-QA-01","msg":"Strict mode is disabled, return Locator: css=a[data-testid='listarUsuarios'] in page."}
+{"level":30,"time":"2023-06-09T15:33:30.298Z","pid":16116,"hostname":"AD-QA-01","msg":"Locator count is 1"}
+{"level":30,"time":"2023-06-09T15:33:30.307Z","pid":16116,"hostname":"AD-QA-01","msg":"End of node method highlightElements"}
+{"level":30,"time":"2023-06-09T15:33:32.322Z","pid":16116,"hostname":"AD-QA-01","msg":"Start of node method click"}
+{"level":30,"time":"2023-06-09T15:33:32.322Z","pid":16116,"hostname":"AD-QA-01","msg":"Strict mode is enabled, find Locator with css=a[data-testid='listarUsuarios'] in page."}
+{"level":30,"time":"2023-06-09T15:33:32.402Z","pid":16116,"hostname":"AD-QA-01","msg":"End of node method click"}
+{"level":30,"time":"2023-06-09T15:33:32.408Z","pid":16116,"hostname":"AD-QA-01","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2023-06-09T15:33:32.419Z","pid":16116,"hostname":"AD-QA-01","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2023-06-09T15:33:32.422Z","pid":16116,"hostname":"AD-QA-01","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2023-06-09T15:33:32.422Z","pid":16116,"hostname":"AD-QA-01","msg":"Strict mode is enabled, find Locator with css=table in page."}
+{"level":30,"time":"2023-06-09T15:33:32.444Z","pid":16116,"hostname":"AD-QA-01","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2023-06-09T15:33:32.446Z","pid":16116,"hostname":"AD-QA-01","msg":"Start of node method getTableCellIndex"}
+{"level":30,"time":"2023-06-09T15:33:32.446Z","pid":16116,"hostname":"AD-QA-01","msg":"Strict mode is enabled, find Locator with css=table >> \"Nome\" in page."}
+{"level":30,"time":"2023-06-09T15:33:32.467Z","pid":16116,"hostname":"AD-QA-01","msg":"End of node method getTableCellIndex"}
+{"level":30,"time":"2023-06-09T15:33:32.469Z","pid":16116,"hostname":"AD-QA-01","msg":"Start of node method getTableRowIndex"}
+{"level":30,"time":"2023-06-09T15:33:32.469Z","pid":16116,"hostname":"AD-QA-01","msg":"Strict mode is enabled, find Locator with css=table >> \"bryanalexander@example.com\" in page."}
+{"level":30,"time":"2023-06-09T15:33:33.354Z","pid":16116,"hostname":"AD-QA-01","msg":"End of node method getTableRowIndex"}
+{"level":30,"time":"2023-06-09T15:33:33.355Z","pid":16116,"hostname":"AD-QA-01","msg":"Start of node method getElement"}
+{"level":30,"time":"2023-06-09T15:33:33.356Z","pid":16116,"hostname":"AD-QA-01","msg":"Strict mode is enabled, find Locator with css=table >> tr >> nth=79 >> > * >> nth=0 in page."}
+{"level":30,"time":"2023-06-09T15:33:33.378Z","pid":16116,"hostname":"AD-QA-01","msg":"End of node method getElement"}
+{"level":30,"time":"2023-06-09T15:33:33.381Z","pid":16116,"hostname":"AD-QA-01","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2023-06-09T15:33:33.398Z","pid":16116,"hostname":"AD-QA-01","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2023-06-09T15:33:33.401Z","pid":16116,"hostname":"AD-QA-01","msg":"Start of node method scrollToElement"}
+{"level":30,"time":"2023-06-09T15:33:33.401Z","pid":16116,"hostname":"AD-QA-01","msg":"element=15670493-19f4-4c1a-bc65-e524d27716c8 selector parsed without children"}
+{"level":30,"time":"2023-06-09T15:33:33.401Z","pid":16116,"hostname":"AD-QA-01","msg":"Only locator handle defined, return cached Locator."}
+{"level":30,"time":"2023-06-09T15:33:33.430Z","pid":16116,"hostname":"AD-QA-01","msg":"End of node method scrollToElement"}
+{"level":30,"time":"2023-06-09T15:33:33.432Z","pid":16116,"hostname":"AD-QA-01","msg":"Start of node method highlightElements"}
+{"level":30,"time":"2023-06-09T15:33:33.432Z","pid":16116,"hostname":"AD-QA-01","msg":"element=15670493-19f4-4c1a-bc65-e524d27716c8 selector parsed without children"}
+{"level":30,"time":"2023-06-09T15:33:33.432Z","pid":16116,"hostname":"AD-QA-01","msg":"Only locator handle defined, return cached Locator."}
+{"level":30,"time":"2023-06-09T15:33:33.436Z","pid":16116,"hostname":"AD-QA-01","msg":"Locator count is 1"}
+{"level":30,"time":"2023-06-09T15:33:33.454Z","pid":16116,"hostname":"AD-QA-01","msg":"End of node method highlightElements"}
+{"level":30,"time":"2023-06-09T15:33:35.465Z","pid":16116,"hostname":"AD-QA-01","msg":"Start of node method getText"}
+{"level":30,"time":"2023-06-09T15:33:35.465Z","pid":16116,"hostname":"AD-QA-01","msg":"element=15670493-19f4-4c1a-bc65-e524d27716c8 selector parsed without children"}
+{"level":30,"time":"2023-06-09T15:33:35.465Z","pid":16116,"hostname":"AD-QA-01","msg":"Only locator handle defined, return cached Locator."}
+{"level":30,"time":"2023-06-09T15:33:35.519Z","pid":16116,"hostname":"AD-QA-01","msg":"Retrieved text for element element=15670493-19f4-4c1a-bc65-e524d27716c8 containing Jacsonsm"}
+{"level":30,"time":"2023-06-09T15:33:35.519Z","pid":16116,"hostname":"AD-QA-01","msg":"End of node method getText"}
+{"level":30,"time":"2023-06-09T15:33:35.523Z","pid":16116,"hostname":"AD-QA-01","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2023-06-09T15:33:35.537Z","pid":16116,"hostname":"AD-QA-01","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2023-06-09T15:33:35.541Z","pid":16116,"hostname":"AD-QA-01","msg":"Start of node method highlightElements"}
+{"level":30,"time":"2023-06-09T15:33:35.541Z","pid":16116,"hostname":"AD-QA-01","msg":"element=15670493-19f4-4c1a-bc65-e524d27716c8 selector parsed without children"}
+{"level":30,"time":"2023-06-09T15:33:35.541Z","pid":16116,"hostname":"AD-QA-01","msg":"Only locator handle defined, return cached Locator."}
+{"level":30,"time":"2023-06-09T15:33:35.546Z","pid":16116,"hostname":"AD-QA-01","msg":"Locator count is 1"}
+{"level":30,"time":"2023-06-09T15:33:35.565Z","pid":16116,"hostname":"AD-QA-01","msg":"End of node method highlightElements"}
+{"level":30,"time":"2023-06-09T15:33:35.568Z","pid":16116,"hostname":"AD-QA-01","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2023-06-09T15:33:35.589Z","pid":16116,"hostname":"AD-QA-01","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2023-06-09T15:33:35.592Z","pid":16116,"hostname":"AD-QA-01","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2023-06-09T15:33:36.451Z","pid":16116,"hostname":"AD-QA-01","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2023-06-09T15:33:36.459Z","pid":16116,"hostname":"AD-QA-01","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2023-06-09T15:33:36.471Z","pid":16116,"hostname":"AD-QA-01","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2023-06-09T15:33:36.474Z","pid":16116,"hostname":"AD-QA-01","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2023-06-09T15:33:37.363Z","pid":16116,"hostname":"AD-QA-01","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2023-06-09T15:33:42.387Z","pid":16116,"hostname":"AD-QA-01","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-06-09T15:33:42.392Z","pid":16116,"hostname":"AD-QA-01","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2023-06-09T15:33:42.395Z","pid":16116,"hostname":"AD-QA-01","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-06-09T15:33:42.399Z","pid":16116,"hostname":"AD-QA-01","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2023-06-09T15:33:42.404Z","pid":16116,"hostname":"AD-QA-01","msg":"Changed active context"}
+{"level":30,"time":"2023-06-09T15:33:42.405Z","pid":16116,"hostname":"AD-QA-01","msg":"Changing current active page"}
+{"level":30,"time":"2023-06-09T15:33:42.405Z","pid":16116,"hostname":"AD-QA-01","msg":"Changed active page"}
+{"level":30,"time":"2023-06-09T15:33:42.413Z","pid":16116,"hostname":"AD-QA-01","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-06-09T15:33:42.416Z","pid":16116,"hostname":"AD-QA-01","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2023-06-09T15:33:42.420Z","pid":16116,"hostname":"AD-QA-01","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2023-06-09T15:33:42.420Z","pid":16116,"hostname":"AD-QA-01","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2023-06-09T15:33:42.422Z","pid":16116,"hostname":"AD-QA-01","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2023-06-09T15:33:42.422Z","pid":16116,"hostname":"AD-QA-01","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2023-06-09T15:33:42.426Z","pid":16116,"hostname":"AD-QA-01","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-06-09T15:33:42.429Z","pid":16116,"hostname":"AD-QA-01","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2023-06-09T15:33:42.431Z","pid":16116,"hostname":"AD-QA-01","msg":"Changed active context"}
+{"level":30,"time":"2023-06-09T15:33:42.431Z","pid":16116,"hostname":"AD-QA-01","msg":"Changing current active page"}
+{"level":30,"time":"2023-06-09T15:33:42.431Z","pid":16116,"hostname":"AD-QA-01","msg":"Changed active page"}
+{"level":30,"time":"2023-06-09T15:33:42.433Z","pid":16116,"hostname":"AD-QA-01","msg":"Start of node method closeContext"}
+{"level":30,"time":"2023-06-09T15:33:42.774Z","pid":16116,"hostname":"AD-QA-01","msg":"Removed page=ff432730-998a-42d1-94f6-cc7432a44dbb from context=b76bd57e-9290-4b1c-ae09-c6f444246439 page stack"}
+{"level":30,"time":"2023-06-09T15:33:42.794Z","pid":16116,"hostname":"AD-QA-01","msg":"End of node method closeContext"}
+{"level":30,"time":"2023-06-09T15:33:42.813Z","pid":16116,"hostname":"AD-QA-01","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-06-09T15:33:42.813Z","pid":16116,"hostname":"AD-QA-01","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2023-06-09T15:33:44.914Z","pid":16116,"hostname":"AD-QA-01","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2023-06-09T15:33:45.057Z","pid":16116,"hostname":"AD-QA-01","msg":"End of node method closeAllBrowsers"}

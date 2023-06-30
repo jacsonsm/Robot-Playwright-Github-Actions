@@ -1,0 +1,8 @@
+#################################
+#rfbrowser init
+#npm install @playwright/test
+#npx playwright install-deps
+#################################
+robotframework
+robotframework-browser
+robotframework-faker
