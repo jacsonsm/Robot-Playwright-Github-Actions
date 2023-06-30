@@ -1,5 +1,5 @@
 *** Settings ***
-Resource    ../resources/server_rest-front.resource
+Resource    ../resources/serve-rest-front.resource
 
 Test Setup     Run Keywords       Abri o navegador     AND
 ...                               Abrir o site da Server Rest      AND
