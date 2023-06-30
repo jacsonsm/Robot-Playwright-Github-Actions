@@ -11,8 +11,8 @@ jobs:
     name: Tests Robot Framework
     runs-on: ubuntu-20.04
     strategy:
-    matrix:
-      python-version: ['3.10']
+      matrix:
+        python-version: ['3.10']
 
     steps:
     # Checks out the repository-
