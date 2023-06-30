@@ -37,8 +37,8 @@ jobs:
 
       - name: Install Playright
         run:  |
-          sudo npm init playwright@latest
-          sudo npx playright install-deps
+          sudo npm install playwright/test
+          sudo npx playwright install --with-deps
 
       - name: init rfBrowser
         run:  |
