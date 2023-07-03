@@ -66,7 +66,7 @@ jobs:
           name: Results-chrome
 
       - name: Send Report
-        if: alwais()
+        if: always()
         uses: joovena/robotFramework-reporter-action@v2.1
         with:
           report_path: Results-chrome #'./Results-chrome/**/*log*'
