@@ -14,9 +14,8 @@ jobs:
     strategy:
       matrix:
         browser:  [chromium, firefox, webkit]
-      fail-test:  false
+      fail-fast:  false
         #python-version: ['3.10']
-
     steps:
     # Checks out the repository-
       - name: Checkout
