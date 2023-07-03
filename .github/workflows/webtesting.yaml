@@ -48,3 +48,12 @@ jobs:
         continue-on-error: true
         run:  |
           robot -d ./results -v HEADLESS:True -v BROWSER:chromium tests
+        
+      - name: Upload Tests Results
+        if: always()
+        uses: actions/upload-artifact@v3
+        with:
+          name: Results-chrome
+          path: ./results
+          if-no-files-found: ignore
+          retention-days: 8
