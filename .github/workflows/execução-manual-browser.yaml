@@ -3,10 +3,15 @@ run-name: On Push - Web Tests Run
 on: 
   workflow_dispatch:
     inputs:
-      tag:
-        type: string
-        description: "Tag to be used for this release?"
+      logLevel:
+        description:  'Browser select'
         required: true
+        default: 'chromium'
+        type: choice
+        options:
+          - chromium
+          - firefox
+          - webkit 
 
 jobs:
   web-tests:
