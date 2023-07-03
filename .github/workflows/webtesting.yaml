@@ -48,13 +48,13 @@ jobs:
       - name: Run Robot Framework WEB Tests
         continue-on-error: true
         run:  |
-          robot -d ./results -i teste git a-v HEADLESS:True -v BROWSER:chromium tests
+          robot -d ./results -i teste HEADLESS:True -v BROWSER:chromium tests
         
       - name: Upload Tests Results
         if: always()
         uses: actions/upload-artifact@v3
         with:
-          name: Results-chrome
+          name: results-chrome
           path: ./results
           if-no-files-found: ignore
           retention-days: 8
@@ -63,12 +63,12 @@ jobs:
         if: always()
         uses: actions/download-artifact@v1
         with:
-          name: Results-chrome
+          name: results-chrome
 
       - name: Send Report
         if: always()
         uses: joonvena/robotFramework-reporter-action@v2.1
         with:
-          report_path: Results-chrome #'./Results-chrome/**/*log*'
+          report_path: results-chrome #'./results-chrome/**/*log*'
           gh_access_token: ${{secrets.GITHUB_TOKEN}}
           show_passed_testes: false
