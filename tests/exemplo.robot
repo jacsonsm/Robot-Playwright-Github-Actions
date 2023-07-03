@@ -8,18 +8,16 @@ Suite Teardown    Close Browser    ALL
 *** Test Cases ***
 
 Login com sucesso Server Rest Front
-
+    [Tags]    teste
     Preencher os dados do usuário e cadastrar
     Validar a mensagem de boas vindas para um usuário logado
-
     [Teardown]    Realizar logout do usuário
 
 Validar se o usuário está visível na tela de listagem de usuários após o cadastro
-
+    [Tags]    teste
     Realizar o cadastro de um novo usuário
     Acessar a tela de listagem de usuarios
     Validar se o usuário está visivel na tabela de usuários
-
     [Teardown]    Realizar logout do usuário
 
 
