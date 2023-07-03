@@ -1,0 +1,77 @@
+name: Manual Web Testing Robot
+run-name: On Push - Web Tests Run
+on: 
+  workflow_dispatch:
+    inputs:
+      tag:
+        type: string
+        description: "Tag to be used for this release?"
+        required: true
+
+jobs:
+  web-tests:
+    name: Tests Robot Framework
+    runs-on: ubuntu-20.04
+    permissions:  write-all
+    strategy:
+      matrix:
+        browser:  [chromium, firefox, webkit]
+      fail-fast:  false
+        #python-version: ['3.10']
+    steps:
+    # Checks out the repository-
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Install Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'  #${{ matrix.python-version }}
+          #cache: pip
+
+      - name: Install Node.js 
+        uses: actions/setup-node@v3
+        with:
+          node-version: '19.1' 
+
+      - name: Install Requirements
+        run:  |
+          python -m pip install --upgrade pip
+          pip install -U -r requirements.txt
+
+      - name: Install Playright
+        run:  |
+          sudo npm install @playwright/test
+          sudo npx playwright install-deps
+
+      - name: init rfBrowser
+        run:  |
+          rfbrowser init
+
+      - name: Run Robot Framework WEB Tests
+        continue-on-error: true
+        run:  |
+          robot -d ./results -i ${{inputs.tag}} -v HEADLESS:True -v BROWSER:${{matrix.browser}} tests
+        
+      - name: Upload Tests Results
+        if: always()
+        uses: actions/upload-artifact@v3
+        with:
+          name: results-${{matrix.browser}} 
+          path: ./results
+          if-no-files-found: ignore
+          retention-days: 8
+
+      - name: Download Tests Results
+        if: always()
+        uses: actions/download-artifact@v1
+        with:
+          name: results-${{matrix.browser}} 
+
+      - name: Send Report
+        if: always()
+        uses: joonvena/robotFramework-reporter-action@v2.1
+        with:
+          report_path: results-${{matrix.browser}}  #'./results-${{matrix.browser}} /**/*log*'
+          gh_access_token: ${{secrets.GITHUB_TOKEN}}
+          show_passed_tests: false
