@@ -1,4 +1,4 @@
-name: Manual Web Testing Robot
+name: Execução Manual Web Testing Robot por Browser
 run-name: On Push - Web Tests Run
 on: 
   workflow_dispatch:
