@@ -59,7 +59,7 @@ jobs:
           if-no-files-found: ignore
           retention-days: 8
 
-      - name: Dowload Tests Results
+      - name: Download Tests Results
         if: always()
         uses: actions/download-artifact@v1
         with:
@@ -71,4 +71,4 @@ jobs:
         with:
           report_path: results-chrome #'./results-chrome/**/*log*'
           gh_access_token: ${{secrets.GITHUB_TOKEN}}
-          show_passed_testes: false
+          show_passed_tests: false
