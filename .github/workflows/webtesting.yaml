@@ -11,9 +11,11 @@ jobs:
     name: Tests Robot Framework
     runs-on: ubuntu-20.04
     permissions:  write-all
-    # strategy:
-    #   matrix:
-    #     python-version: ['3.10']
+    strategy:
+      matrix:
+        browser:  [chromium, firefox, webkit]
+      fail-test:  false
+        #python-version: ['3.10']
 
     steps:
     # Checks out the repository-
@@ -48,13 +50,13 @@ jobs:
       - name: Run Robot Framework WEB Tests
         continue-on-error: true
         run:  |
-          robot -d ./results -i teste -v HEADLESS:True -v BROWSER:chromium tests
+          robot -d ./results -i teste -v HEADLESS:True -v BROWSER:${{matrix.browser}} tests
         
       - name: Upload Tests Results
         if: always()
         uses: actions/upload-artifact@v3
         with:
-          name: results-chrome
+          name: results-${{matrix.browser}} 
           path: ./results
           if-no-files-found: ignore
           retention-days: 8
@@ -63,12 +65,12 @@ jobs:
         if: always()
         uses: actions/download-artifact@v1
         with:
-          name: results-chrome
+          name: results-${{matrix.browser}} 
 
       - name: Send Report
         if: always()
         uses: joonvena/robotFramework-reporter-action@v2.1
         with:
-          report_path: results-chrome #'./results-chrome/**/*log*'
+          report_path: results-${{matrix.browser}}  #'./results-${{matrix.browser}} /**/*log*'
           gh_access_token: ${{secrets.GITHUB_TOKEN}}
           show_passed_tests: false
