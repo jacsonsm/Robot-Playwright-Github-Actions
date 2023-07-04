@@ -11,7 +11,7 @@ on:
       browser:
         description:  'Browser select'
         required: true
-        default: 'chromium'
+        #default: 'chromium'
         type: choice
         options:
         - "chromium"
