@@ -3,15 +3,20 @@ run-name: On Push - Web Tests Run
 on: 
   workflow_dispatch:
     inputs:
+      tag:
+        type: string
+        description: "Tag to be used for this release?"
+        required: true
+
       logLevel:
         description:  'Browser select'
         required: true
         default: 'chromium'
         type: choice
         options:
-          - chromium
-          - firefox
-          - webkit 
+          - "chromium"
+          - "firefox"
+          - "webkit" 
 
 jobs:
   web-tests:
@@ -56,13 +61,13 @@ jobs:
       - name: Run Robot Framework WEB Tests
         continue-on-error: true
         run:  |
-          robot -d ./results -v HEADLESS:True -v BROWSER:${{logLevel.options}} tests
+          robot -d ./results -v HEADLESS:True -v BROWSER:${{inputs.browser}} -i ${{inputs.tag}} tests
         
       - name: Upload Tests Results
         if: always()
         uses: actions/upload-artifact@v3
         with:
-          name: results-${{matrix.browser}} 
+          name: results-${{inputs.browser}} 
           path: ./results
           if-no-files-found: ignore
           retention-days: 8
@@ -71,12 +76,12 @@ jobs:
         if: always()
         uses: actions/download-artifact@v1
         with:
-          name: results-${{matrix.browser}} 
+          name: results-${{inputs.browser}} 
 
       - name: Send Report
         if: always()
         uses: joonvena/robotFramework-reporter-action@v2.1
         with:
-          report_path: results-${{matrix.browser}}  #'./results-${{matrix.browser}} /**/*log*'
+          report_path: results-${{inputs.browser}}  #'./results-${{matrix.browser}} /**/*log*'
           gh_access_token: ${{secrets.GITHUB_TOKEN}}
           show_passed_tests: false
