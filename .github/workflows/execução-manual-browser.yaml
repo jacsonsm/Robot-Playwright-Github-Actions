@@ -8,12 +8,12 @@ on:
         description: "Tag to be used for this release?"
         required: true
 
-    logLevel:
-      description:  'Browser select'
-      required: true
-      default: 'chromium'
-      type: choice
-      options:
+      browser:
+        description:  'Browser select'
+        required: true
+        default: 'chromium'
+        type: choice
+        options:
         - "chromium"
         - "firefox"
         - "webkit" 
