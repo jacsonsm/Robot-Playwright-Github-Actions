@@ -56,7 +56,7 @@ jobs:
       - name: Run Robot Framework WEB Tests
         continue-on-error: true
         run:  |
-          robot -d ./results -v HEADLESS:True -v BROWSER:${{inputs.tag}} tests
+          robot -d ./results -v HEADLESS:True -v BROWSER:${{inputs.logLevel.options}} tests
         
       - name: Upload Tests Results
         if: always()
