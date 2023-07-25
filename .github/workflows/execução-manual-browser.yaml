@@ -78,7 +78,7 @@ jobs:
         with:
           name: results-${{inputs.browser}} 
 
-      - name: Send Report
+      - name: Send Report Automation
         if: always()
         uses: joonvena/robotFramework-reporter-action@v2.1
         with:
