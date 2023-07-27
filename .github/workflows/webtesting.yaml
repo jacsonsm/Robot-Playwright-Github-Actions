@@ -6,6 +6,8 @@ on:
     - main
   pull_request:
     branches: [main]
+  schedule:
+    - cron: '0 6 * * 1-5'
 jobs:
   web-tests:
     name: Tests Robot Framework
@@ -58,7 +60,7 @@ jobs:
           name: results-${{matrix.browser}} 
           path: ./results
           if-no-files-found: ignore
-          retention-days: 8
+          retention-days: 1
 
       - name: Download Tests Results
         if: always()
