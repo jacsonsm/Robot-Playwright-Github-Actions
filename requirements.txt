@@ -6,3 +6,5 @@
 robotframework
 robotframework-browser
 robotframework-faker
+allure-robotframework
+allure-pytest
