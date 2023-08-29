@@ -23,13 +23,7 @@ jobs:
     name: Tests Robot Framework
     runs-on: ubuntu-20.04
     permissions:  write-all
-    # strategy:
-    #   matrix:
-    #     browser:  [chromium, firefox, webkit]
-    #   fail-fast:  false
-        #python-version: ['3.10']
     steps:
-    # Checks out the repository-
       - name: Checkout
         uses: actions/checkout@v3
 
@@ -85,8 +79,8 @@ jobs:
           report_path: results-${{inputs.browser}}  #'./results-${{matrix.browser}} /**/*log*'
           gh_access_token: ${{secrets.GITHUB_TOKEN}}
           show_passed_tests: false
-          
-       name: Get Allure history
+
+      - name: Get Allure history
         uses: actions/checkout@v2
         if: always()
         continue-on-error: true
