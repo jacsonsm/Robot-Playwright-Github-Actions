@@ -74,4 +74,5 @@ jobs:
         with:
           report_path: results-${{matrix.browser}}  #'./results-${{matrix.browser}} /**/*log*'
           gh_access_token: ${{secrets.GITHUB_TOKEN}}
+          summary:  true
           show_passed_tests: false
