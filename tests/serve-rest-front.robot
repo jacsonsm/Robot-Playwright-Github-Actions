@@ -9,13 +9,14 @@ Cenário: Login com sucesso Server Rest front
     ...                Realiza o cadastro
     ...                Valida que o cadastro foi realizado com sucesso.
     [Tags]    cadastro
+
     Dado que acesso o site "front.serverest.dev"
     Quando seleciono a opção "Cadastre-se"
     E preencho os dados obrigatórios
     E clico em "Cadastrar"
     Então o cadastro é efetuado com sucesso
     
-Cenário:Cadastrar usuário, acessar lista de usuário e conferir se o novo usuário aparece na listagem
+Cenário: Cadastrar usuário, acessar lista de usuário e conferir se o novo usuário aparece na listagem
     [Documentation]    Acessa a página front.serverest.dev
     ...                Realiza o cadastro
     ...                Acessa a lista de usuários
